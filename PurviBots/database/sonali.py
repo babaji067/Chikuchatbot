@@ -34,7 +34,7 @@ No overacting. No ghumana.
 
     MISTRAL_URL = "https://api.mistral.ai/v1/chat/completions"
     MISTRAL_MODEL = "mistral-small-latest"
-    MISTRAL_KEY = "hBoh33ILLqdqT8UK7d8LiPYE7xwRzHyu"
+    MISTRAL_KEY = "Id6icmON1USKhGYEv2YXMaegdwTqfe0X"
 
     def __init__(self):
         self.error_messages = [
