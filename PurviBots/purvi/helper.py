@@ -28,7 +28,7 @@ HELP_ABOUT =f"""**❖ {PurviBots.mention} ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛ-�
 ❖ sυᴘᴘσʀᴛ ᴄʜᴧᴛ ➥ [ᴜᴘᴅᴀᴛᴇs](https://t.me/pikusupport)
 ─────────────────────────
 ➤ ʙσᴛ sᴛᴧᴛυs & ϻσʀє ʙσᴛs - [ᴄʟɪᴄᴋ ʜєʀє](https://t.me/pikubot18)
-➤ ᴘᴧɪᴅ ᴘʀσϻσᴛɪση :- [ᴄσηᴛᴧᴄᴛ ʜєʀє](https://t.me/BABA_OWNERR)**
+➤ ᴘᴧɪᴅ ᴘʀσϻσᴛɪση :- [ᴄσηᴛᴧᴄᴛ ʜєʀє](https://t.me/pikumishra18)**
 """
 
 HELP_MAIN =f"""**❖ ᴄʜσσsє ᴄᴧᴛєɢσʀʏ ғσʀ ʏσυ ɢєᴛ ʜєʟᴩ.
@@ -44,7 +44,7 @@ HELP_BASIC =f"""
 • /ping - ᴄʜᴇᴀᴋ ʙᴏᴛ ᴀʟɪᴠᴇ ᴏʀ ᴅᴇᴀᴅ.
 • /stats - ᴄʜᴇᴀᴋ ʙᴏᴛ sᴛᴀᴛs.
 
-**✦ 𝐏ᴏᴡᴇʀᴇᴅ вʏ » [𐌌᰻⃪᱂ 𖤓 𝛣 𝛢 𝛣 𝛢](t.me/BABA_OWNERR)**
+**✦ 𝐏ᴏᴡᴇʀᴇᴅ вʏ » [Pɪᴋᴜ Mɪsʜʀᴀ](t.me/pikumishra18)**
 """
 
 HELP_CHAT =f"""
@@ -52,7 +52,7 @@ HELP_CHAT =f"""
 
 • /chatbot - ɪɴʟɪɴᴇ ᴄᴏɴᴛʀᴏʟs ʙᴜᴛᴛᴏɴ ғᴏʀ ᴄʜᴀᴛ.
 
-**✦ 𝐏ᴏᴡᴇʀᴇᴅ вʏ » [𐌌᰻⃪᱂ 𖤓 𝛣 𝛢 𝛣 𝛢](t.me/BABA_OWNERR)**
+**✦ 𝐏ᴏᴡᴇʀᴇᴅ вʏ » [Pɪᴋᴜ Mɪsʜʀᴀ](t.me/pikumishra18)**
 """
 
 HELP_INFO =f"""
@@ -65,7 +65,7 @@ HELP_INFO =f"""
 
 **» ᴄσᴜɴᴛʀʏ ʟᴀɴɢ ᴄσᴅє :- [ᴄʟɪᴄᴋ ʜєʀє](https://telegra.ph/%E1%B4%84%E1%B4%8F%E1%B4%9C%C9%B4%E1%B4%9B%CA%80%CA%8F-%CA%9F%C9%AAs%E1%B4%9B-%E1%B4%A1%C9%AA%E1%B4%9B%CA%9C-%CA%9F%E1%B4%80%C9%B4%C9%A2%E1%B4%9C%E1%B4%80%C9%A2%E1%B4%87-%E1%B4%84%E1%B4%8F%E1%B4%85%E1%B4%87-08-28)**
 
-**✦ 𝐏ᴏᴡᴇʀᴇᴅ вʏ » [𐌌᰻⃪᱂ 𖤓 𝛣 𝛢 𝛣 𝛢](t.me/BABA_OWNERR)**
+**✦ 𝐏ᴏᴡᴇʀᴇᴅ вʏ » [Pɪᴋᴜ Mɪsʜʀᴀ](t.me/pikumishra)**
 """
 
 HELP_TAG =f"""**<u>⊚ {PurviBots.mention} ᴛᴧɢ ʜᴇʟᴘ</u>**
@@ -82,7 +82,7 @@ HELP_TAG =f"""**<u>⊚ {PurviBots.mention} ᴛᴧɢ ʜᴇʟᴘ</u>**
 • /atag - ᴀᴅᴍɪɴ ᴛᴀɢ sᴛᴀʀᴛ
 • /astop - ꜱᴛσᴘ ᴀᴅᴍɪɴ ᴛᴧɢ
 
-**✦ 𝐏ᴏᴡᴇʀᴇᴅ вʏ » [𐌌᰻⃪᱂ 𖤓 𝛣 𝛢 𝛣 𝛢](t.me/BABA_OWNERR)**
+**✦ 𝐏ᴏᴡᴇʀᴇᴅ вʏ » [Pɪᴋᴜ Mɪsʜʀᴀ](t.me/pikumishra)**
 """
 
 HELP_RANK =f"""
@@ -98,7 +98,7 @@ HELP_RANK =f"""
 
 <blockquote>**» ɪғ ᴀ υsᴇʀ’s ɴᴀᴍᴇ ɪsɴ’ᴛ ᴠɪsɪʙʟᴇ ʙᴜᴛ ᴛʜᴇʏ’ʀᴇ ɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ, υsᴇ /info user_id ᴛᴏ ᴠɪᴇᴡ ᴛʜᴇɪʀ ᴅᴇᴛᴀɪʟs.**</blockquote>
 
-**✦ 𝐏ᴏᴡᴇʀᴇᴅ вʏ » [𐌌᰻⃪᱂ 𖤓 𝛣 𝛢 𝛣 𝛢](t.me/BABA_OWNERR)**
+**✦ 𝐏ᴏᴡᴇʀᴇᴅ вʏ » [Pɪᴋᴜ Mɪsʜʀᴀ](t.me/pikumishra)**
 """
 
 HELP_WEL =f"""
@@ -106,5 +106,5 @@ HELP_WEL =f"""
 
 • /welcome - ɪɴʟɪɴᴇ ᴄᴏɴᴛʀᴏʟs ʙᴜᴛᴛᴏɴ ғᴏʀ ᴡᴇʟᴄᴏᴍᴇ.
 
-**✦ 𝐏ᴏᴡᴇʀᴇᴅ вʏ » [𐌌᰻⃪᱂ 𖤓 𝛣 𝛢 𝛣 𝛢](t.me/BABA_OWNERR)**
+**✦ 𝐏ᴏᴡᴇʀᴇᴅ вʏ » [Pɪᴋᴜ Mɪsʜʀᴀ](t.me/pikumishra18)**
 """
