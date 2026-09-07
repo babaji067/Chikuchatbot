@@ -24,16 +24,16 @@ HELP_ABOUT =f"""**❖ {PurviBots.mention} ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛ-�
 ➥ ᴘʀᴏᴍᴏᴛᴇ ᴍᴇ ᴀᴅᴍɪɴ ᴡɪᴛʜ ʙᴀsɪᴄ ʀɪɢʜᴛs.
 ➥ ᴧᴅᴅ ϻє ηᴏᴡ ʙᴧʙʏ ɪɴ ʏᴏᴜʀ ɢʀσᴜᴘs.
 ─────────────────────────
-❖ υᴘᴅᴧᴛєs ᴄʜᴧηηєʟ ➥ [ʙᴏᴛs](https://t.me/Chhoti_bot_support)
-❖ sυᴘᴘσʀᴛ ᴄʜᴧᴛ ➥ [ᴜᴘᴅᴀᴛᴇs](https://t.me/messo_network)
+❖ υᴘᴅᴧᴛєs ᴄʜᴧηηєʟ ➥ [ʙᴏᴛs](https://t.me/pikubot18)
+❖ sυᴘᴘσʀᴛ ᴄʜᴧᴛ ➥ [ᴜᴘᴅᴀᴛᴇs](https://t.me/pikusupport)
 ─────────────────────────
-➤ ʙσᴛ sᴛᴧᴛυs & ϻσʀє ʙσᴛs - [ᴄʟɪᴄᴋ ʜєʀє](https://t.me/messo_network)
+➤ ʙσᴛ sᴛᴧᴛυs & ϻσʀє ʙσᴛs - [ᴄʟɪᴄᴋ ʜєʀє](https://t.me/pikubot18)
 ➤ ᴘᴧɪᴅ ᴘʀσϻσᴛɪση :- [ᴄσηᴛᴧᴄᴛ ʜєʀє](https://t.me/BABA_OWNERR)**
 """
 
 HELP_MAIN =f"""**❖ ᴄʜσσsє ᴄᴧᴛєɢσʀʏ ғσʀ ʏσυ ɢєᴛ ʜєʟᴩ.
 
-» ɪꜰ ᴀɴʏ ɪssᴜᴇ ᴄᴏᴍᴇs - [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](t.me/Chhoti_bot_support)**
+» ɪꜰ ᴀɴʏ ɪssᴜᴇ ᴄᴏᴍᴇs - [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](t.me/pikusupport)**
 """
 
 
