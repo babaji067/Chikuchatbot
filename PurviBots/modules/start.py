@@ -54,7 +54,7 @@ async def on_new_chat_members(client: PurviBots, message: Message):
     try:
         invite_link = await client.export_chat_invite_link(chat_id)
     except Exception:
-        invite_link = "https://t.me/purvi_bots"
+        invite_link = "https://t.me/pikubot18"
 
     await add_served_chat(chat_id)
 
@@ -67,7 +67,7 @@ async def on_new_chat_members(client: PurviBots, message: Message):
                     "✙ ᴀᴅᴅ ᴍᴇ ✙",
                     url=f"https://t.me/{PurviBots.username}?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users+ban_users"
                 ),
-                InlineKeyboardButton("⌯ sᴜᴘᴘᴏʀᴛ ⌯", url="https://t.me/Purvi_Bots")
+                InlineKeyboardButton("⌯ sᴜᴘᴘᴏʀᴛ ⌯", url="https://t.me/Pikubot18")
             ]
         ])
     )
@@ -115,7 +115,7 @@ async def on_left_chat_member(client: PurviBots, message: Message):
         f"**⚘ ʀᴇᴍᴏᴠᴇᴅ ʙʏ :-** {remove_by}"
     )
 
-    group_link = f"https://t.me/{message.chat.username}" if message.chat.username else "https://t.me/purvi_bots"
+    group_link = f"https://t.me/{message.chat.username}" if message.chat.username else "https://t.me/pikubots"
     
     await client.send_photo(
         LOGGER_GROUP_ID,
