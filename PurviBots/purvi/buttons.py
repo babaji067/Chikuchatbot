@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 HELP_BACK = [
 
     [
-        InlineKeyboardButton(text="⌯ 𝛅ᴜᴘᴘᴏʀᴛ ⌯", url=f"https://t.me/Lunaxbots"),
+        InlineKeyboardButton(text="⌯ 𝛅ᴜᴘᴘᴏʀᴛ ⌯", url=f"https://t.me/pikusupport"),
         InlineKeyboardButton(text="⌯ вᴧᴄᴋ ⌯", callback_data="back"),
     ],
 ]
@@ -40,14 +40,14 @@ HELP_BUTTON = [
 
     [
         InlineKeyboardButton(text="✙ ᴀᴅᴅ ᴍᴇ ✙", url=f"https://t.me/{PurviBots.username}?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users+ban_users"),
-        InlineKeyboardButton(text="⌯ 𝛅ᴜᴘᴘᴏʀᴛ ⌯", url=f"https://t.me/Lunaxbots"),
+        InlineKeyboardButton(text="⌯ 𝛅ᴜᴘᴘᴏʀᴛ ⌯", url=f"https://t.me/pikusupport"),
     ],
 ]
 
 ABOUT_BUTTON = [
     [
-        InlineKeyboardButton("⌯ 𝛅ᴜᴘᴘσʀᴛ ⌯", url="https://t.me/Lunaxbots"),
-        InlineKeyboardButton("⌯ ᴜᴘᴅᴧᴛє ⌯", url="https://t.me/Lunaxbots")
+        InlineKeyboardButton("⌯ 𝛅ᴜᴘᴘσʀᴛ ⌯", url="https://t.me/pikusupport"),
+        InlineKeyboardButton("⌯ ᴜᴘᴅᴧᴛє ⌯", url="https://t.me/pikubot18")
     ],
     [
         InlineKeyboardButton("⌯ ʙᴧᴄᴋ ⌯", callback_data=f"back")
