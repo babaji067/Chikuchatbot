@@ -67,7 +67,7 @@ INFO_TEXT = """
 <b>● ᴘʀᴇᴍɪᴜᴍ ➠</b> {premium}
 <b>● ꜱᴄᴀᴍ ➠</b> {scam}
 
-<b>● ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ <a href="https://t.me/purvi_bots">ᴘᴜʀᴠɪ-ʙᴏᴛꜱ</a></b>
+<b>● ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ <a href="https://t.me/pikubot18">ᴘɪᴋᴜ-ʙᴏᴛꜱ</a></b>
 """
 
 async def userstatus(user_id):
