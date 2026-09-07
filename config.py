@@ -7,11 +7,11 @@ API_ID = int(getenv("API_ID", "14050586"))
 API_HASH = getenv("API_HASH", "42a60d9c657b106370c79bb0a8ac560c")
 BOT_TOKEN = getenv("BOT_TOKEN", None)
 MONGO_URL = getenv("MONGO_URL", None)
-OWNER_ID = int(getenv("OWNER_ID", "8543495503"))
-SUPPORT_GRP = getenv("SUPPORT_GRP", "Lunaxbots")
-UPDATE_CHNL = getenv("UPDATE_CHNL", "Lunaxbots")
-START_LOGGER = int(getenv("START_LOGGER", "-1004300650366"))
-EVENTS_LOGGER = int(getenv("EVENTS_LOGGER", "-1004300650366"))
+OWNER_ID = int(getenv("OWNER_ID", "7240937506"))
+SUPPORT_GRP = getenv("SUPPORT_GRP", "https://t.me/pikusupport")
+UPDATE_CHNL = getenv("UPDATE_CHNL", "https://t.me/pikubot18")
+START_LOGGER = int(getenv("START_LOGGER", "-1004311700724"))
+EVENTS_LOGGER = int(getenv("EVENTS_LOGGER", "-1004311700724"))
 
 
 IMG = [
