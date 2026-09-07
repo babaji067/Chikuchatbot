@@ -22,7 +22,7 @@ PNG_BTN = [
         ),
         InlineKeyboardButton(
             text="⌯ 𝛅ᴜᴘᴘᴏʀᴛ ⌯", 
-            url=f"https://t.me/Chhoti_bot_support"
+            url=f"https://t.me/pikusupport"
         ),
     ],
 ]
@@ -45,6 +45,6 @@ async def ping(client, message: Message):
     minutes, seconds = divmod(remainder, 60)
     await message.reply_photo(
         photo=random.choice(IMG),
-        caption=f"**ʜєʏ ʙᴧʙʏ !!**\n**[{app.name}](t.me/{app.username}) ɪꜱ ᴧʟɪᴠє 🥀 ᴧηᴅ ᴡσʀᴋɪηɢ ꜰɪηє ᴡɪᴛʜ**\n\n**➥ ᴘσηɢ :** `{ms}` ms\n**➥ ᴜᴘᴛɪϻє :** `{hours}`ʜ:`{minutes}`ᴍ:`{seconds}`s\n\n**✦ 𝐏σᴡєʀєᴅ вʏ » [𐌌᰻⃪᱂ 𖤓 𝛣 𝛢 𝛣 𝛢](t.me/messo_network)**",
+        caption=f"**ʜєʏ ʙᴧʙʏ !!**\n**[{app.name}](t.me/{app.username}) ɪꜱ ᴧʟɪᴠє 🥀 ᴧηᴅ ᴡσʀᴋɪηɢ ꜰɪηє ᴡɪᴛʜ**\n\n**➥ ᴘσηɢ :** `{ms}` ms\n**➥ ᴜᴘᴛɪϻє :** `{hours}`ʜ:`{minutes}`ᴍ:`{seconds}`s\n\n**✦ 𝐏σᴡєʀєᴅ вʏ » [Pɪᴋᴜ Mɪsʜʀᴀ](t.me/pikubot18)**",
         reply_markup=InlineKeyboardMarkup(PNG_BTN),
     )
