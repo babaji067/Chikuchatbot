@@ -26,7 +26,7 @@ No overacting. No ghumana.
     GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
     GROQ_MODEL = "llama-3.1-8b-instant"
     GROQ_KEYS = [
-        "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",
+        "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",
         "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",
         "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",
         "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",
