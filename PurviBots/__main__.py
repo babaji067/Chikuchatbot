@@ -42,7 +42,7 @@ async def send_startup_message():
 <b>• ᴘʏʀᴏɢʀᴀᴍ :-</b> <code>{pyrover}</code>
 <b>• ᴘʏᴛʜᴏɴ :-</b> <code>{pyver.split()[0]}</code>
 
-<b>» ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- <a href="https://t.me/BE_ZACK">• 𝐉 𝚫 𝐂 𝐊 𝐒 𝐎 𝐍 ┇</a></b>
+<b>» ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- <a href="https://t.me/baba_ownerr">👑🅱️🅰️🅱️🅰️👑</a></b>
 """
 
         buttons = InlineKeyboardMarkup(
@@ -58,7 +58,7 @@ async def send_startup_message():
 
         await PurviBots.send_photo(
             chat_id=LOGGER_GROUP,
-            photo="https://anya-file-host.vercel.app/pjgej7xpy7",
+            photo="https://iili.io/n37ZDjp.jpg",
             caption=text,
             reply_markup=buttons,        
         )
