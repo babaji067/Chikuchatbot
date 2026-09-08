@@ -11,7 +11,7 @@ OWNER_ID = int(getenv("OWNER_ID", "8998874268"))
 SUPPORT_GRP = getenv("SUPPORT_GRP", "https://t.me/pikusupport")
 UPDATE_CHNL = getenv("UPDATE_CHNL", "https://t.me/pikubot18")
 START_LOGGER = int(getenv("START_LOGGER", "-1004311700724"))
-EVENTS_LOGGER = int(getenv("EVENTS_LOGGER", "-1004311700724"))
+EVENTS_LOGGER = int(getenv("EVENTS_LOGGER", "-1004300650366"))
 
 
 IMG = [
