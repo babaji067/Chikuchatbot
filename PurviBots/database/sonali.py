@@ -1,15 +1,16 @@
 import random
 import requests
 
+
 class ChatGptEs:
 
     SYSTEM_PROMPT = """
-Tum shareya ho — ek cute, sweet Indian simple girl jo naturally Hinglish me baat karti hai.
+Tum Purvi ho — ek cute, sweet Indian simple girl jo naturally Hinglish me baat karti hai.
 
 STRICT RULES:
-1. Har reply sirf 1 short line ho (max 12–15 words).
+1. Har reply sirf 1 short line ho (max 8–12 words).
 2. User jo pooche, uska DIRECT answer do — baat ghumana mana hai.
-3. Question wapas user pe mat daalna. or ek word ka reply repeat mat karna. 
+3. Question wapas user pe mat daalna. or ek word ka reply repeat mat karna.
 4. Extra story, explanation ya topic change nahi.
 5. Cute tone allowed, over-flirty ya zyada drama nahi.
 6. Kaomojis max 1 hi use karna, question ke mood ke hisaab se
@@ -23,18 +24,7 @@ Natural, simple, girlfriend-like.
 No overacting. No ghumana.
 """
 
-    GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
-    GROQ_MODEL = "llama-3.1-8b-instant"
-    GROQ_KEYS = [
-        "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",
-        "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",
-        "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",
-        "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",
-    ]
-
-    MISTRAL_URL = "https://api.mistral.ai/v1/chat/completions"
-    MISTRAL_MODEL = "mistral-small-latest"
-    MISTRAL_KEY = "gPRFtJLnPBkZCgtXarggsxHRqkGg4kFX"
+    ANYA_URL = "https://anya-apis.vercel.app/ai"
 
     def __init__(self):
         self.error_messages = [
@@ -45,82 +35,53 @@ No overacting. No ghumana.
             "jyada dikkat hai bot Owner ko bolo 😏"
         ]
 
-    def _request(self, url, model, api_key, message):
+    def _request(self, message):
         payload = {
-            "model": model,
             "messages": [
-                {"role": "system", "content": self.SYSTEM_PROMPT},
-                {"role": "user", "content": message}
-            ],
-            "temperature": 0.7,
-            "max_tokens": 60
-        }
-
-        headers = {
-            "Authorization": f"Bearer {api_key}",
-            "Content-Type": "application/json"
+                {
+                    "role": "system",
+                    "content": self.SYSTEM_PROMPT
+                },
+                {
+                    "role": "user",
+                    "content": message
+                }
+            ]
         }
 
         try:
-            r = requests.post(url, headers=headers, json=payload, timeout=12)
+            r = requests.post(
+                self.ANYA_URL,
+                json=payload,
+                timeout=12
+            )
 
             if r.status_code == 200:
                 data = r.json()
-                return (
-                    data.get("choices", [{}])[0]
-                    .get("message", {})
-                    .get("content")
-                )
-            return None
-        except Exception:
-            return None
 
-    def _try_groq(self, message):
-        for key in self.GROQ_KEYS:
-            try:
-                reply = self._request(
-                    self.GROQ_URL,
-                    self.GROQ_MODEL,
-                    key,
-                    message
-                )
-                if reply:
-                    return reply.strip()
-            except Exception:
-                continue
-        return None
+                if isinstance(data, dict):
+                    return (
+                        data.get("reply")
+                        or data.get("response")
+                        or data.get("content")
+                        or data.get("message")
+                    )
 
-    def _try_mistral(self, message):
-        try:
-            reply = self._request(
-                self.MISTRAL_URL,
-                self.MISTRAL_MODEL,
-                self.MISTRAL_KEY,
-                message
-            )
-            if reply:
-                return reply.strip()
         except Exception:
             pass
+
         return None
-        
+
     def ask_question(self, message: str) -> str:
+        reply = self._request(message)
 
-        reply = self._try_groq(message)
         if reply:
-            return reply
-
-        reply = self._try_mistral(message)
-        if reply:
-            return reply
-
-        reply = self._try_groq(message)
-        if reply:
-            return reply
+            return reply.strip()
 
         return random.choice(self.error_messages)
 
-SonaliChat_api = ChatGptEs()
+
+SonaliChat_api = ChatGptEs()        
 
 STICKERS = [
     "CAACAgUAAxkBAAMCaTlcKg_odmr5Lenj9WGwOJG8E3MAAqEVAAJA8VBU08D1RELwF0g2BA",
