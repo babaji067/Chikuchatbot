@@ -22,7 +22,7 @@ PNG_BTN = [
         ),
         InlineKeyboardButton(
             text="⌯ 𝛅ᴜᴘᴘᴏʀᴛ ⌯", 
-            url=f"https://t.me/pikusupport"
+            url=f"https://t.me/chhoti_bot_support"
         ),
     ],
 ]
